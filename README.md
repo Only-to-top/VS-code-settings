@@ -10,12 +10,14 @@
 <li>Live Server</li>
 <li>Russian Language Pack</li>
 <li>Sass</li>
-<li>LuckyWP Содержание</li>
+<li>LuckyWP</li>
 </ul>
 
 
 
-<h2>Settings:</h2>```
+<h2>Settings:</h2>
+
+
 ```js
 {
   "workbench.startupEditor": "none", //редактор при запуске
