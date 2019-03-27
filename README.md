@@ -1,6 +1,6 @@
 # Settings  VS Code
 
-<h2 style="text-align:center">Extensions:</h2>
+<h2>Extensions:</h2>
 
 <ul>
 <li>All Autocomplete or Path Autocomplete</li>
@@ -16,7 +16,7 @@
 
 
 
-<h2 style="text-align:center">Settings:</h2>
+<h2>Settings:</h2>
 
 ```js
 {
@@ -93,7 +93,7 @@
 }
 ```
 
-<h2 style="text-align:center">Фрагменты кода пользователя:</h2>
+<h2>Фрагменты кода пользователя:</h2>
 
 ```js
 {
@@ -120,7 +120,7 @@
 ```
 
 
-<h2 style="text-align:center">Hot Keys:</h2>
+<h2>Hot Keys:</h2>
 
 ```js
 {
