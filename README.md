@@ -15,7 +15,7 @@
 
 
 
-<h2>Settings:</h2>
+<h2>Settings:</h2>```
 ```js
 {
   "workbench.startupEditor": "none", //редактор при запуске
