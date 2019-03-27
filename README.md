@@ -1,19 +1,21 @@
 # Settings  VS Code
 
 <h2>Extensions:</h2>
-* All Autocomplete or Path Autocomplete
-* Apache Conf
-* Color Highlight
-* Higlight-matching-tag
-* Live Sass Complier
-* Live Server
-* Russian Language Pack
-* Sass
-* LuckyWP Содержание
+<ul>
+<li>All Autocomplete or Path Autocomplete</li>
+<li>Apache Conf</li>
+<li>Color Highlight</li>
+<li>Higlight-matching-tag</li>
+<li>Live Sass Complier</li>
+<li>Live Server</li>
+<li>Russian Language Pack</li>
+<li>Sass</li>
+<li>LuckyWP Содержание</li>
+</ul>
 
 
 
-      # Settings:
+<h2>Settings:</h2>
 ```js
 {
   "workbench.startupEditor": "none", //редактор при запуске
@@ -91,7 +93,7 @@
 
 
 
-      # Фрагменты кода пользователя:
+<h2>Фрагменты кода пользователя:</h2>
 ```js
 {
   "Print to console": {
@@ -118,7 +120,7 @@
 
 
 
-      Hot Keys:
+<h2>Hot Keys:</h2>
 ```js
 {
   "key": "ctrl+shift+g",
