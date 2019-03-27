@@ -11,7 +11,7 @@
 <li>Live Server</li>
 <li>Russian Language Pack</li>
 <li>Sass</li>
-<li>LuckyWP</li>
+<li>Swig(.tpl) - .tpl синтаксис</li>
 </ul>
 
 
