@@ -1,6 +1,6 @@
 # Settings  VS Code
 
-      # Extensions:
+<h2>Extensions:</h2>
 * All Autocomplete or Path Autocomplete
 * Apache Conf
 * Color Highlight
