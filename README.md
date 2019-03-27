@@ -11,7 +11,7 @@
 <li>Live Server</li>
 <li>Russian Language Pack</li>
 <li>Sass</li>
-<li>Swig(.tpl) // .tpl синтаксис</li>
+<li>Swig(.tpl) ```php // .tpl синтаксис</li> ```
 </ul>
 
 
