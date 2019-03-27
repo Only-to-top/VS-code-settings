@@ -14,7 +14,7 @@
 
 
       # Settings:
-```json
+```js
 {
   "workbench.startupEditor": "none", //редактор при запуске
   "workbench.statusBar.visible": true,
@@ -92,7 +92,7 @@
 
 
       # Фрагменты кода пользователя:
-```json
+```js
 {
   "Print to console": {
     "prefix": "media",
@@ -119,7 +119,7 @@
 
 
       Hot Keys:
-```json
+```js
 {
   "key": "ctrl+shift+g",
   "command": "editor.emmet.action.wrapWithAbbreviation"
