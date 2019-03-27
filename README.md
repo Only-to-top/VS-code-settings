@@ -1,6 +1,7 @@
 # Settings  VS Code
 
-<h2>Extensions:</h2>
+<h2 style="text-align:center">Extensions:</h2>
+
 <ul>
 <li>All Autocomplete or Path Autocomplete</li>
 <li>Apache Conf</li>
@@ -15,8 +16,7 @@
 
 
 
-<h2>Settings:</h2>
-
+<h2 style="text-align:center">Settings:</h2>
 
 ```js
 {
@@ -93,9 +93,8 @@
 }
 ```
 
+<h2 style="text-align:center">Фрагменты кода пользователя:</h2>
 
-
-<h2>Фрагменты кода пользователя:</h2>
 ```js
 {
   "Print to console": {
@@ -121,8 +120,8 @@
 ```
 
 
+<h2 style="text-align:center">Hot Keys:</h2>
 
-<h2>Hot Keys:</h2>
 ```js
 {
   "key": "ctrl+shift+g",
