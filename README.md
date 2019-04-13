@@ -117,6 +117,19 @@
     "description": "Вставить медиа запрос"
   }
 }
+
+// php.json
+{
+  "@media": {
+    "prefix": "print",
+    "body": [
+      "echo '<pre>';",
+      "print_r($1);",
+      "echo '</pre>';"
+    ],
+    "description": "Вставить print_r"
+  }
+}
 ```
 
 
