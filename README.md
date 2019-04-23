@@ -3,14 +3,19 @@
 <h2>Extensions:</h2>
 
 <ul>
+  <li>Sass</li>
+  <li>Live Server</li>
+  <li>Live Sass Complier</li>
+  <li>Highlight Matching Tag</li>
+  
 <li>All Autocomplete or Path Autocomplete</li>
 <li>Apache Conf</li>
 <li>Color Highlight</li>
-<li>Higlight-matching-tag</li>
-<li>Live Sass Complier</li>
-<li>Live Server</li>
+
+
+
 <li>Russian Language Pack</li>
-<li>Sass</li>
+
 <li>Swig(.tpl)    // .tpl синтаксис</li>
 </ul>
 
