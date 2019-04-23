@@ -92,8 +92,8 @@
 
   // Указывает на исполняемый файл PHP.
   "php.suggest.basic": false, // откл. станд. php
-  "php.validate.executablePath": "D:\\_SERVER\\OSPanel\\modules\\php\\PHP-7.1-x64\\php.exe",
-  // "php.validate.executablePath": "D:\\www\\OSPanel\\modules\\php\\PHP-7.1-x64\\php.exe",
+  "php.validate.executablePath": "D:\\OSPanel\\modules\\php\\PHP_7.1-x64\\php.exe",
+  // "php.validate.executablePath": "D:\\www\\OSPanel\\modules\\php\\PHP_7.1-x64\\php.exe",
 
 }
 ```
