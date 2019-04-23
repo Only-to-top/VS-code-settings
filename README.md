@@ -7,10 +7,11 @@
   <li>Live Server</li>
   <li>Live Sass Complier</li>
   <li>Highlight Matching Tag</li>
+  <li>Color Highlight</li>
   
 <li>All Autocomplete or Path Autocomplete</li>
 <li>Apache Conf</li>
-<li>Color Highlight</li>
+
 
 
 
