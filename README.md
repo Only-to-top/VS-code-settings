@@ -12,9 +12,6 @@
 <li>All Autocomplete or Path Autocomplete</li>
 <li>Apache Conf</li>
 
-
-
-
 <li>Russian Language Pack</li>
 
 <li>Swig(.tpl)    // .tpl синтаксис</li>
@@ -39,6 +36,7 @@
   "git.ignoreMissingGitWarning": true,
   "files.defaultLanguage": "html",
   "editor.fontSize": 17,
+  "editor.tabCompletion": "on", //Сниппет после нажатия TAB
 
   "editor.tabSize": 2,
   "editor.insertSpaces": true, //Вставлять пробелы при нажатии клавиши TAB
@@ -79,7 +77,6 @@
   "liveServer.settings.donotShowInfoMsg": true,
 
   // liveSassCompiler
-  "liveSassCompile.settings.generateMap": false,
   "liveSassCompile.settings.formats": [
     {
       "format": "expanded",
@@ -93,8 +90,8 @@
 
   // Указывает на исполняемый файл PHP.
   "php.suggest.basic": false, // откл. станд. php
-  "php.validate.executablePath": "D:\\OSPanel\\modules\\php\\PHP_7.1-x64\\php.exe",
-  // "php.validate.executablePath": "D:\\www\\OSPanel\\modules\\php\\PHP_7.1-x64\\php.exe",
+  "php.validate.executablePath": "D:\\_SERVER\\OSPanel\\modules\\php\\PHP-7.1-x64\\php.exe", // Desktop
+  // "php.validate.executablePath": "D:\\web\\OSPanel\\modules\\php\\PHP-7.1-x64\\php.exe", // Notebook
 
 }
 ```
