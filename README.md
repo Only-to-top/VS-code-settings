@@ -21,7 +21,7 @@
 
 <h2>Settings:</h2>
 
-```json
+```js 
 {
   "workbench.startupEditor": "none", //редактор при запуске
   "workbench.statusBar.visible": true,
