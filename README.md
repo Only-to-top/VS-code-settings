@@ -101,9 +101,12 @@
 ```js
 {
   "Print to console": {
-    "prefix": "media",
+    "prefix": "@media",
     "scope": "sass",
-    "body": "@media only screen and (max-width : 1200px)",
+    "body": [
+      "@media only screen and (max-width : $1px)",
+      "  $2"
+    ],
     "description": "Вставить медиа запрос"
   }
 }
