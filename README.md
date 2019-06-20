@@ -128,11 +128,7 @@
 {
   "@media": {
     "prefix": "print",
-    "body": [
-      "echo '<pre>';",
-      "print_r($1);",
-      "echo '</pre>';"
-    ],
+    "body": "echo '<pre>' . print_r($$1, true) . '</pre>';",
     "description": "Вставить print_r"
   }
 }
