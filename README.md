@@ -92,6 +92,8 @@
   "php.suggest.basic": false, // откл. станд. php
   "php.validate.executablePath": "D:\\_SERVER\\OSPanel\\modules\\php\\PHP-7.1-x64\\php.exe", // Desktop
   // "php.validate.executablePath": "D:\\web\\OSPanel\\modules\\php\\PHP-7.1-x64\\php.exe", // Notebook
+  
+  "python.linting.pylintEnabled": false // отключение заливки в Python
 
 }
 ```
