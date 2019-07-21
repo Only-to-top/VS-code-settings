@@ -8,13 +8,9 @@
   <li>Live Sass Complier</li>
   <li>Highlight Matching Tag</li>
   <li>Color Highlight</li>
-  
-<li>All Autocomplete or Path Autocomplete</li>
-<li>Apache Conf</li>
-
-<li>Russian Language Pack</li>
-
-<li>Swig(.tpl)    // .tpl синтаксис</li>
+  <li>All Autocomplete or Path Autocomplete</li>
+  <li>Apache Conf</li>
+  <li>Russian Language Pack</li>
 </ul>
 
 
