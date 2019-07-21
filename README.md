@@ -32,18 +32,18 @@
   "git.ignoreMissingGitWarning": true,
   "files.defaultLanguage": "html",
   "editor.fontSize": 17,
-  "editor.tabCompletion": "on", //Сниппет после нажатия TAB
+  "editor.tabCompletion": "on", // Сниппет после нажатия TAB
 
   "editor.tabSize": 2,
-  "editor.insertSpaces": true, //Вставлять пробелы при нажатии клавиши TAB
-  "editor.detectIndentation": false, //Только пробелы вместо TAB
-  "editor.renderWhitespace": "boundary", //отбражение пробелов
+  "editor.insertSpaces": true, // Вставлять пробелы при нажатии клавиши TAB
+  "editor.detectIndentation": false, // Только пробелы вместо TAB
+  "editor.renderWhitespace": "boundary", // Отбражение пробелов
 
   "editor.folding": true,
   "editor.glyphMargin": true,
   "editor.smoothScrolling": true,
 
-  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\bash.exe",
+  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\bash.exe", // Интеграция терминала в Visual Studio Code
   "terminal.integrated.rendererType": "dom",
 
   // highlight-matching-tag
