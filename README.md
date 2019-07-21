@@ -94,11 +94,12 @@
 }
 ```
 
-<h2>Фрагменты кода пользователя:</h2>
+<h2>User snippets GLOBAL:</h2>
 
 ```js
 {
-  "Print to console": {
+  // sass media
+  "@media SASS": {
     "prefix": "@media",
     "scope": "sass",
     "body": [
@@ -106,11 +107,10 @@
       "  $2"
     ],
     "description": "Вставить медиа запрос"
-  }
-}
-
-{
-  "Print to console": {
+  },
+    
+  // css media
+  "@media CSS": {
     "prefix": "@media",
     "scope": "css",
     "body": [
@@ -119,16 +119,16 @@
       "}"
     ],
     "description": "Вставить медиа запрос"
-  }
-}
-
-// php.json
-{
+  },
+  
+  // print_r beautiful on PHP
   "@media": {
     "prefix": "print",
+    "scope": "php",
     "body": "echo '<pre>' . print_r($$1, true) . '</pre>';",
     "description": "Вставить print_r"
-  }
+  },
+
 }
 ```
 
