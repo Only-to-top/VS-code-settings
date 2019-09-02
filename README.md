@@ -34,7 +34,7 @@
   "editor.fontSize": 17,
   "editor.tabCompletion": "on", // Сниппет после нажатия TAB
 
-  "editor.tabSize": 2,
+  "editor.tabSize": 4,
   "editor.insertSpaces": true, // Вставлять пробелы при нажатии клавиши TAB
   "editor.detectIndentation": false, // Только пробелы вместо TAB
   "editor.renderWhitespace": "boundary", // Отбражение пробелов
