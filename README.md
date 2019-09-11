@@ -84,10 +84,10 @@
   // Путь к исполняемому файлу Git с именем исполняемого файла Git
   "git.path": "C:\\Program Files\\Git\\bin\\git.exe",
 
-  // Указывает на исполняемый файл PHP.
-  "php.suggest.basic": false, // откл. станд. php
-  "php.validate.executablePath": "D:\\_SERVER\\OSPanel\\modules\\php\\PHP-7.1-x64\\php.exe", // Desktop
-  // "php.validate.executablePath": "D:\\web\\OSPanel\\modules\\php\\PHP-7.1-x64\\php.exe", // Notebook
+    // Указывает на исполняемый файл PHP.
+    "php.suggest.basic": false, // откл. станд. php
+    "php.validate.executablePath": "D:\\OSPanel\\modules\\php\\PHP_7.3-x64\\php.exe", // Notebook
+    // "php.validate.executablePath": "D:\\web\\OSPanel\\modules\\php\\PHP_7.3-x64\\php.exe", // Desktop
   
   "python.linting.pylintEnabled": false // отключение заливки в Python
 
