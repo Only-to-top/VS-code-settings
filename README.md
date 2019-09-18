@@ -11,6 +11,9 @@
   <li>All Autocomplete or Path Autocomplete</li>
   <li>Apache Conf</li>
   <li>Russian Language Pack</li>
+  
+  <li>Dark++ Regular</li>
+  <li>Material Theme</li>
 </ul>
 
 
@@ -19,77 +22,77 @@
 
 ```js 
 {
-  "workbench.startupEditor": "none", //редактор при запуске
-  "workbench.statusBar.visible": true,
-  "workbench.activityBar.visible": true,
-  "workbench.statusBar.feedback.visible": false,
-  "workbench.editor.tabSizing": "shrink",
-  "workbench.colorCustomizations": {
-    "editorIndentGuide.activeBackground": "#ff0000"
-  },
-  "window.zoomLevel": 0,
-  "window.menuBarVisibility": "visible",
-  "git.ignoreMissingGitWarning": true,
-  "files.defaultLanguage": "html",
-  "editor.fontSize": 17,
-  "editor.tabCompletion": "on", // Сниппет после нажатия TAB
+    "workbench.startupEditor": "none",
+    "workbench.statusBar.visible": true,
+    "workbench.activityBar.visible": true,
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.colorCustomizations": {
+        "editorIndentGuide.activeBackground": "#ff0000"
+    },
+    "window.zoomLevel": 0,
+    "window.menuBarVisibility": "visible",
+    "git.ignoreMissingGitWarning": true,
+    "files.defaultLanguage": "html",
+    "editor.fontSize": 16,
+    "editor.tabCompletion": "on", //Сниппет после нажатия TAB
 
-  "editor.tabSize": 4,
-  "editor.insertSpaces": true, // Вставлять пробелы при нажатии клавиши TAB
-  "editor.detectIndentation": false, // Только пробелы вместо TAB
-  "editor.renderWhitespace": "boundary", // Отбражение пробелов
+    // need 'Dark++ Regular' theme
+    "editor.fontFamily": "'Fira Code'", // поддерживает лигатуры
+    "editor.fontWeight": "300",
+    "editor.fontLigatures": true,
 
-  "editor.folding": true,
-  "editor.glyphMargin": true,
-  "editor.smoothScrolling": true,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true, //Вставлять пробелы при нажатии клавиши TAB
+    "editor.detectIndentation": false, //Только пробелы вместо TAB
+    "editor.renderWhitespace": "boundary",
 
-  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\bash.exe", // Интеграция терминала в Visual Studio Code
-  "terminal.integrated.rendererType": "dom",
+    "editor.folding": true,
+    "editor.glyphMargin": true,
+    "editor.smoothScrolling": true,
 
-  // highlight-matching-tag
-  "highlight-matching-tag.styles": {
-    "opening": {
-      "left": {
-        "custom": {
-          "borderWidth": "2px 2px 2px 2px",
-          "borderStyle": "solid",
-          "borderColor": "yellow",
-          "borderRadius": "5px"
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\bash.exe",
+    "terminal.integrated.rendererType": "dom",
+
+    // highlight-matching-tag
+    "highlight-matching-tag.styles": {
+        "opening": {
+            "left": {
+                "custom": {
+                "borderWidth": "2px 2px 2px 2px",
+                "borderStyle": "solid",
+                "borderColor": "yellow",
+                "borderRadius": "5px"
+                }
+            },
+            "right": {
+                "custom": {
+                "borderWidth": "2px 2px 2px 2px",
+                "borderStyle": "solid",
+                "borderColor": "yellow",
+                "borderRadius": "5px"
+                }
+            }
         }
-      },
-      "right": {
-        "custom": {
-          "borderWidth": "2px 2px 2px 2px",
-          "borderStyle": "solid",
-          "borderColor": "yellow",
-          "borderRadius": "5px"
+    },
+
+    // liveServer
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+
+    // liveSassCompiler
+    "liveSassCompile.settings.formats": [
+        {
+        "format": "expanded",
+        "extensionName": ".css",
+        "savePath": "/css/"
         }
-      }
-    }
-  },
+    ],
 
-  // liveServer
-  "liveServer.settings.donotVerifyTags": true,
-  "liveServer.settings.donotShowInfoMsg": true,
-
-  // liveSassCompiler
-  "liveSassCompile.settings.formats": [
-    {
-      "format": "expanded",
-      "extensionName": ".css",
-      "savePath": "/css/"
-    }
-  ],
-
-  // Путь к исполняемому файлу Git с именем исполняемого файла Git
-  "git.path": "C:\\Program Files\\Git\\bin\\git.exe",
-
-    // Указывает на исполняемый файл PHP.
+  // Указывает на исполняемый файл PHP.
     "php.suggest.basic": false, // откл. станд. php
-    "php.validate.executablePath": "D:\\OSPanel\\modules\\php\\PHP_7.3-x64\\php.exe", // Notebook
-    // "php.validate.executablePath": "D:\\web\\OSPanel\\modules\\php\\PHP_7.3-x64\\php.exe", // Desktop
-  
-  "python.linting.pylintEnabled": false // отключение заливки в Python
+    "php.validate.executablePath": "D:\\_SERVER\\OSPanel\\modules\\php\\PHP-7.1-x64\\php.exe",
+    "workbench.colorTheme": "Material Theme Darker", // Desktop
+    // "php.validate.executablePath": "D:\\web\\OSPanel\\modules\\php\\PHP-7.1-x64\\php.exe", // Notebook
 
 }
 ```
