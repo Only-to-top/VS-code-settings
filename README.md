@@ -38,8 +38,9 @@
 
     // need 'Dark++ Regular' theme
     "editor.fontFamily": "'Fira Code'", // поддерживает лигатуры
-    "editor.fontWeight": "300",
+    "editor.fontWeight": "100",
     "editor.fontLigatures": true,
+    "terminal.integrated.fontWeight": "100",
 
     "editor.tabSize": 4,
     "editor.insertSpaces": true, //Вставлять пробелы при нажатии клавиши TAB
@@ -90,9 +91,10 @@
 
   // Указывает на исполняемый файл PHP.
     "php.suggest.basic": false, // откл. станд. php
-    "php.validate.executablePath": "D:\\_SERVER\\OSPanel\\modules\\php\\PHP-7.1-x64\\php.exe",
-    "workbench.colorTheme": "Material Theme Darker", // Desktop
+    "php.validate.executablePath": "D:\\OSPanel\\modules\\php\\PHP-7.3\\php.exe", // Desktop
     // "php.validate.executablePath": "D:\\web\\OSPanel\\modules\\php\\PHP-7.1-x64\\php.exe", // Notebook
+
+    "workbench.colorTheme": "Material Theme Darker High Contrast",
 
 }
 ```
