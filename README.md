@@ -81,11 +81,16 @@
 
     // liveSassCompiler
     "liveSassCompile.settings.formats": [
+        // {
+        //     "format": "expanded",
+        //     "extensionName": ".css",
+        //     "savePath": "/css/"
+        // },
         {
-        "format": "expanded",
-        "extensionName": ".css",
-        "savePath": "/css/"
-        }
+            "format": "compressed",
+            "extensionName": ".min.css",
+            "savePath": "/css"
+        },
     ],
 
   // Указывает на исполняемый файл PHP.
