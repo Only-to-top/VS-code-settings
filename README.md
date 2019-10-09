@@ -89,9 +89,9 @@
         }
     ],
 
-  // Указывает на исполняемый файл PHP.
+  // Указываем на исполняемый файл PHP.
     "php.suggest.basic": false, // откл. станд. php
-    "php.validate.executablePath": "D:\\OSPanel\\modules\\php\\PHP-7.3\\php.exe", // Desktop
+    "php.validate.executablePath": "D:\\OSPanel\\modules\\php\\PHP_7.3\\php.exe", // Desktop
     // "php.validate.executablePath": "D:\\web\\OSPanel\\modules\\php\\PHP-7.1-x64\\php.exe", // Notebook
 
     "workbench.colorTheme": "Material Theme Darker High Contrast",
