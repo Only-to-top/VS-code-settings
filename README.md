@@ -12,6 +12,7 @@
 - Russian Language Pack
 - Dark++ Regular
 - Material Theme
+- ES Lint
 
 
 
