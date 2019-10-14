@@ -15,7 +15,7 @@
 
 
 
-<h2>Settings:</h2>
+## Settings:
 
 ```js 
 {
@@ -90,7 +90,7 @@
 }
 ```
 
-<h2>User snippets GLOBAL:</h2>
+## User snippets GLOBAL:
 
 ```js
 {
@@ -154,7 +154,7 @@
 ```
 
 
-<h2>Hot Keys:</h2>
+## Hot Keys:
 
 ```js
 {
