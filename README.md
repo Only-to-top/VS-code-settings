@@ -1,20 +1,17 @@
 # Settings  VS Code
 
-<h2>Extensions:</h2>
+## Extensions:
 
-<ul>
-  <li>Sass</li>
-  <li>Live Server</li>
-  <li>Live Sass Complier</li>
-  <li>Highlight Matching Tag</li>
-  <li>Color Highlight</li>
-  <li>All Autocomplete or Path Autocomplete</li>
-  <li>Apache Conf</li>
-  <li>Russian Language Pack</li>
-  
-  <li>Dark++ Regular</li>
-  <li>Material Theme</li>
-</ul>
+- Sass
+- Live Server
+- Live Sass Complier
+- Highlight Matching Tag
+- Color Highlight
+- All Autocomplete or Path Autocomplete
+- Apache Conf
+- Russian Language Pack
+- Dark++ Regular
+- Material Theme
 
 
 
@@ -35,51 +32,44 @@
     "files.defaultLanguage": "html",
     "editor.fontSize": 16,
     "editor.tabCompletion": "on", //Сниппет после нажатия TAB
-
     // need 'Dark++ Regular' theme
     "editor.fontFamily": "'Fira Code'", // поддерживает лигатуры
     "editor.fontWeight": "100",
     "editor.fontLigatures": true,
     "terminal.integrated.fontWeight": "100",
-
     "editor.tabSize": 4,
     "editor.insertSpaces": true, //Вставлять пробелы при нажатии клавиши TAB
     "editor.detectIndentation": false, //Только пробелы вместо TAB
     "editor.renderWhitespace": "boundary",
-
     "editor.folding": true,
     "editor.glyphMargin": true,
     "editor.smoothScrolling": true,
-
     "terminal.integrated.shell.windows": "C:\\Windows\\System32\\bash.exe",
     "terminal.integrated.rendererType": "dom",
-
     // highlight-matching-tag
     "highlight-matching-tag.styles": {
         "opening": {
             "left": {
                 "custom": {
-                "borderWidth": "2px 2px 2px 2px",
-                "borderStyle": "solid",
-                "borderColor": "yellow",
-                "borderRadius": "5px"
+                    "borderWidth": "2px 2px 2px 2px",
+                    "borderStyle": "solid",
+                    "borderColor": "yellow",
+                    "borderRadius": "5px"
                 }
             },
             "right": {
                 "custom": {
-                "borderWidth": "2px 2px 2px 2px",
-                "borderStyle": "solid",
-                "borderColor": "yellow",
-                "borderRadius": "5px"
+                    "borderWidth": "2px 2px 2px 2px",
+                    "borderStyle": "solid",
+                    "borderColor": "yellow",
+                    "borderRadius": "5px"
                 }
             }
         }
     },
-
     // liveServer
     "liveServer.settings.donotVerifyTags": true,
     "liveServer.settings.donotShowInfoMsg": true,
-
     // liveSassCompiler
     "liveSassCompile.settings.formats": [
         {
@@ -88,14 +78,15 @@
             "savePath": "/css/"
         }
     ],
-
-  // Указываем на исполняемый файл PHP.
+    // Указывает на исполняемый файл PHP.
     "php.suggest.basic": false, // откл. станд. php
     "php.validate.executablePath": "D:\\OSPanel\\modules\\php\\PHP_7.3\\php.exe", // Desktop
     // "php.validate.executablePath": "D:\\web\\OSPanel\\modules\\php\\PHP-7.1-x64\\php.exe", // Notebook
-
     "workbench.colorTheme": "Material Theme Darker High Contrast",
-
+    "git.autofetch": true,
+    // es lint
+    "editor.formatOnSave": true,
+    "eslint.autoFixOnSave": true
 }
 ```
 
