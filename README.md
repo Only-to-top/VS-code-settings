@@ -18,7 +18,7 @@
 
 ## Settings:
 
-```js 
+```json 
 {
     "workbench.startupEditor": "none",
     "workbench.statusBar.visible": true,
@@ -27,17 +27,24 @@
     "workbench.colorCustomizations": {
         "editorIndentGuide.activeBackground": "#ff0000"
     },
+
     "window.zoomLevel": 0,
     "window.menuBarVisibility": "visible",
+
+    "git.autofetch": true,
     "git.ignoreMissingGitWarning": true,
+
     "files.defaultLanguage": "html",
+
     "editor.fontSize": 16,
     "editor.tabCompletion": "on", //Сниппет после нажатия TAB
+    
     // need 'Dark++ Regular' theme
-    "editor.fontFamily": "'Fira Code'", // поддерживает лигатуры
+    "workbench.colorTheme": "Material Theme Darker High Contrast",
+    "editor.fontFamily": "Fira Code", // поддерживает лигатуры
     "editor.fontWeight": "100",
     "editor.fontLigatures": true,
-    "terminal.integrated.fontWeight": "100",
+
     "editor.tabSize": 4,
     "editor.insertSpaces": true, //Вставлять пробелы при нажатии клавиши TAB
     "editor.detectIndentation": false, //Только пробелы вместо TAB
@@ -45,8 +52,11 @@
     "editor.folding": true,
     "editor.glyphMargin": true,
     "editor.smoothScrolling": true,
+    
     "terminal.integrated.shell.windows": "C:\\Windows\\System32\\bash.exe",
     "terminal.integrated.rendererType": "dom",
+    "terminal.integrated.fontWeight": "100",
+    
     // highlight-matching-tag
     "highlight-matching-tag.styles": {
         "opening": {
@@ -68,26 +78,28 @@
             }
         }
     },
+    
     // liveServer
     "liveServer.settings.donotVerifyTags": true,
     "liveServer.settings.donotShowInfoMsg": true,
+    
     // liveSassCompiler
-    "liveSassCompile.settings.formats": [
-        {
-            "format": "expanded",
-            "extensionName": ".css",
-            "savePath": "/css/"
-        }
-    ],
+    "liveSassCompile.settings.formats": [{
+        "format": "expanded",
+        "extensionName": ".css",
+        "savePath": "/css/"
+    }],
+
     // Указывает на исполняемый файл PHP.
     "php.suggest.basic": false, // откл. станд. php
     "php.validate.executablePath": "D:\\OSPanel\\modules\\php\\PHP_7.3\\php.exe", // Desktop
     // "php.validate.executablePath": "D:\\web\\OSPanel\\modules\\php\\PHP-7.1-x64\\php.exe", // Notebook
-    "workbench.colorTheme": "Material Theme Darker High Contrast",
-    "git.autofetch": true,
+
     // es lint
-    "editor.formatOnSave": true,
-    "eslint.autoFixOnSave": true
+    "editor.formatOnSave": false,
+    "[html]": { "editor.formatOnSave": true },
+    "[javascript]": { "editor.formatOnSave": true },
+    "eslint.autoFixOnSave": true,
 }
 ```
 
