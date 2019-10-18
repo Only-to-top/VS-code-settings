@@ -18,7 +18,7 @@
 
 ## Settings:
 
-```json 
+```js
 {
     "workbench.startupEditor": "none",
     "workbench.statusBar.visible": true,
