@@ -107,61 +107,83 @@
 
 ```js
 {
-  // sass media
-  "@media SASS": {
-    "prefix": "@media",
-    "scope": "sass",
-    "body": [
-      "@media only screen and (max-width : $1px)",
-      "  $2"
-    ],
-    "description": "Вставить медиа запрос"
-  },
+    // sass media
+    "@media SASS": {
+        "prefix": "@media",
+        "scope": "sass",
+        "body": [
+        "@media only screen and (max-width : $1px)",
+            "$2"
+        ],
+        "description": "Вставить медиа запрос"
+    },
 
-  // css media
-  "@media CSS": {
-    "prefix": "@media",
-    "scope": "css",
-    "body": [
-      "@media only screen and (max-width: 768px) {",
-      "$1",
-      "}"
-    ],
-    "description": "Вставить медиа запрос"
-  },
-  
-  // print_r beautiful on PHP
-  "@media": {
-    "prefix": "print",
-    "scope": "php",
-    "body": "echo '<pre>' . print_r($$1, true) . '</pre>';",
-    "description": "Вставить print_r"
-  },
+    // css media
+    "@media CSS": {
+        "prefix": "@media",
+        "scope": "css",
+        "body": [
+        "@media only screen and (max-width: $1px) {",
+            "$2",
+        "}"
+        ],
+        "description": "Вставить медиа запрос"
+    },
+    
+    // print_r beautiful on PHP
+    "@media": {
+        "prefix": "print",
+        "scope": "php",
+        "body": "echo '<pre>' . print_r($$1, true) . '</pre>';",
+        "description": "Вставить print_r"
+    },
 
-  // HTML start template
-  "!html": {
-    "prefix": "!html",
-    "scope": "html",
-    "body": [
-        "<!DOCTYPE html>",
-        "<html lang='ru'>",
-        "<head>",
-        "   <meta charset='UTF-8'>",
-        "   <meta name='viewport' content='width=device-width, initial-scale=1.0'>",
-        "   <meta http-equiv='X-UA-Compatible' content='ie=edge'>",
-        "   <title>$1</title>",
-        "   <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>",
-        "</head>",
-        "<body>",
-        "",
-        "$2",
-        "",
-        "<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>",
-        "</body>",
-        "</html>"
-    ],
-    "description": "HTML start tpl"
-  },
+    // HTML start template
+    "!html": {
+        "prefix": "!html",
+        "scope": "html",
+        "body": [
+            "<!DOCTYPE html>",
+            "<html lang='ru'>",
+            "<head>",
+            "   <meta charset='UTF-8'>",
+            "   <meta name='viewport' content='width=device-width, initial-scale=1.0'>",
+            "   <meta http-equiv='X-UA-Compatible' content='ie=edge'>",
+            "   <title>$1</title>",
+            "   <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>",
+            "</head>",
+            "<body>",
+            "",
+            "$2",
+            "",
+            "<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>",
+            "</body>",
+            "</html>"
+        ],
+        "description": "HTML start tpl"
+    },
+
+    // highlight Jekyll
+    "highlight": {
+        "prefix": "high",
+        "scope": "html",
+        "body": [
+            "{% highlight $1 %}",
+            "$2",
+            "{% endhighlight %}"
+        ],
+        "description": "Вставить print_r"
+    },
+
+    // rel nofollow
+    "rel=nofollow": {
+        "prefix": "rel",
+        "scope": "html",
+        "body": [
+            "rel='nofollow noopener noreferrer'"
+        ],
+        "description": "Вставить print_r"
+    },
 
 }
 ```
