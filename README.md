@@ -172,7 +172,7 @@
             "$2",
             "{% endhighlight %}"
         ],
-        "description": "Вставить print_r"
+        "description": "Вставить highlight"
     },
 
     // rel nofollow
@@ -182,7 +182,22 @@
         "body": [
             "rel='nofollow noopener noreferrer'"
         ],
-        "description": "Вставить print_r"
+        "description": "Вставить rel='nofollow'"
+    },
+
+
+    // <picture> WEBP
+    "picture-WEBP": {
+        "prefix": "rel",
+        "scope": "html",
+        "body": [
+            "<picture>",
+            "   <source srcset='img/image.webp' type='image/webp'>",
+            "   <source srcset='img/image.jpg' type='image/jpeg'>",
+            "   <img src='img/image.jpg' alt='alt'>",
+            "</picture>"
+        ],
+        "description": "Вставить WEBP изображение"
     },
 
 }
