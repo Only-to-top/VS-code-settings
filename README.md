@@ -188,7 +188,7 @@
 
     // <picture> WEBP
     "picture-WEBP": {
-        "prefix": "rel",
+        "prefix": "picture",
         "scope": "html",
         "body": [
             "<picture>",
