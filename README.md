@@ -200,6 +200,17 @@
         "description": "Вставить WEBP изображение"
     },
 
+
+    // span.ground
+    "span.ground": {
+        "prefix": "sgr",
+        "scope": "html",
+        "body": [
+            "<span class='ground'>$1</span>"
+        ],
+        "description": "Вставить WEBP изображение"
+    },
+
 }
 ```
 
