@@ -191,10 +191,15 @@
         "prefix": "picture",
         "scope": "html",
         "body": [
-            "<picture>",
+            "<picture itemscope itemtype='http://schema.org/ImageObject'>",
             "   <source srcset='img/image.webp' type='image/webp'>",
             "   <source srcset='img/image.jpg' type='image/jpeg'>",
-            "   <img src='img/image.jpg' alt='alt'>",
+            "   <img",
+            "       itemprop='contentUrl'",
+            "       src='img/image.jpg'",
+            "       alt='alt'",
+            "       class='img-responsive'",
+            "   >",
             "</picture>"
         ],
         "description": "Вставить WEBP изображение"
