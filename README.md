@@ -94,12 +94,14 @@
     "php.suggest.basic": false, // откл. станд. php
     "php.validate.executablePath": "D:\\OSPanel\\modules\\php\\PHP_7.3\\php.exe", // Desktop
     // "php.validate.executablePath": "D:\\web\\OSPanel\\modules\\php\\PHP-7.1-x64\\php.exe", // Notebook
+    
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
 
-    // es lint
     "editor.formatOnSave": false,
     "[html]": { "editor.formatOnSave": true },
     "[javascript]": { "editor.formatOnSave": true },
-    "eslint.autoFixOnSave": true,
 }
 ```
 
