@@ -2,18 +2,18 @@
 
 ## Extensions:
 
-- Sass
 - Live Server
+- Sass
 - Live Sass Complier
 - Highlight Matching Tag
+- Auto Rename Tag
+- Auto Complete Tag
 - Color Highlight
-- All Autocomplete or Path Autocomplete
+- Bracket Pair Colorizer
 - Apache Conf
+- Import Cost
 - Russian Language Pack
-- Dark++ Regular
 - Material Theme
-- ES Lint
-
 
 
 ## Settings:
@@ -104,6 +104,7 @@
     "[javascript]": { "editor.formatOnSave": true },
 }
 ```
+
 
 ## User snippets GLOBAL:
 
@@ -226,7 +227,7 @@
 
 ```js
 {
-  "key": "ctrl+shift+g",
-  "command": "editor.emmet.action.wrapWithAbbreviation"
+    "key": "ctrl+shift+g",
+    "command": "editor.emmet.action.wrapWithAbbreviation"
 }
 ```
