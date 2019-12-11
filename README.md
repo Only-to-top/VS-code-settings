@@ -218,6 +218,16 @@
         ],
         "description": "Вставить WEBP изображение"
     },
+    
+    // grid-tml columns
+    "Grid-template-columns": {
+        "scope": "sass,css",
+        "prefix": "gtc",
+        "body": [
+            "grid-template-columns: repeat(auto-fill, minmax(130px, 1fr))"
+        ],
+        "description": "Грид шаблон колонок"
+    }
 
 }
 ```
