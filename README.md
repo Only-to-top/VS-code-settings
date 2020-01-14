@@ -57,6 +57,11 @@
     "terminal.integrated.rendererType": "dom",
     "terminal.integrated.fontWeight": "100",
     
+    // ассоциации файлов
+    "files.associations": {
+        "*.tpl": "php",
+    },
+    
     // highlight-matching-tag
     "highlight-matching-tag.styles": {
         "opening": {
