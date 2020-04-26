@@ -37,10 +37,7 @@
     "files.defaultLanguage": "html",
 
     "editor.fontSize": 16,
-    "editor.tabCompletion": "on", //Сниппет после нажатия TAB
-    
-    // need 'Dark++ Regular' theme
-    "workbench.colorTheme": "Material Theme Darker High Contrast",
+    "editor.tabCompletion": "on",
     "editor.fontFamily": "Fira Code", // поддерживает лигатуры
     "editor.fontWeight": "100",
     "editor.fontLigatures": true,
@@ -56,7 +53,7 @@
     "terminal.integrated.shell.windows": "C:\\Windows\\System32\\bash.exe",
     "terminal.integrated.rendererType": "dom",
     "terminal.integrated.fontWeight": "100",
-    
+
     // ассоциации файлов
     "files.associations": {
         "*.tpl": "php",
@@ -92,21 +89,25 @@
     "liveSassCompile.settings.formats": [{
         "format": "expanded",
         "extensionName": ".css",
-        "savePath": "/css/"
+        "savePath": "/assets/css/"
     }],
 
     // Указывает на исполняемый файл PHP.
     "php.suggest.basic": false, // откл. станд. php
     "php.validate.executablePath": "D:\\OSPanel\\modules\\php\\PHP_7.3\\php.exe", // Desktop
     // "php.validate.executablePath": "D:\\web\\OSPanel\\modules\\php\\PHP-7.1-x64\\php.exe", // Notebook
-    
-    "emmet.includeLanguages": {
-        "javascript": "javascriptreact"
-    },
 
-    "editor.formatOnSave": false,
-    "[html]": { "editor.formatOnSave": true },
-    "[javascript]": { "editor.formatOnSave": true },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "liquid":     "html"
+    },
+    // "[html]": { "editor.formatOnSave": true },
+    // "[php]": { "editor.formatOnSave": true },
+    // "[javascript]": { "editor.formatOnSave": true },
+
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDragAndDrop": false,
+
 }
 ```
 
