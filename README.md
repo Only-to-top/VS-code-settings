@@ -215,6 +215,21 @@
     },
 
 
+    // <picture> media
+    "picture-media": {
+        "prefix": "picture",
+        "scope": "html, liquid",
+        "body": [
+            "<picture>",
+            "    <source media='(max-width: 576px)' srcset='./assets/img/mobile'>",
+            "    <source media='(min-width: 577px)' srcset='./assets/img/desktop'>",
+            "    <img src='' alt=''>",
+            "</picture>"
+        ],
+        "description": "Вставить media изображение"
+    },
+
+
     // span.ground
     "span.ground": {
         "prefix": "sgr",
