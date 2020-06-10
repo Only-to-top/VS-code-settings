@@ -14,6 +14,7 @@
 - Import Cost
 - Russian Language Pack
 - Material Theme
+- Code Runner
 
 
 ## Settings:
@@ -222,7 +223,6 @@
         "body": [
             "<picture>",
             "    <source media='(max-width: 576px)' srcset='./assets/img/mobile'>",
-            "    <source media='(min-width: 577px)' srcset='./assets/img/desktop'>",
             "    <img src='' alt='./assets/img/desktop'>",
             "</picture>"
         ],
