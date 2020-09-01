@@ -223,7 +223,7 @@
         "body": [
             "<picture>",
             "    <source media='(max-width: 576px)' srcset='./assets/img/mobile'>",
-            "    <img src='' alt='./assets/img/desktop'>",
+            "    <img src='./assets/img/desktop' alt='alt'>",
             "</picture>"
         ],
         "description": "Вставить media изображение"
