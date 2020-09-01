@@ -113,6 +113,8 @@
 
     "javascript.updateImportsOnFileMove.enabled": "always",
     "explorer.confirmDragAndDrop": false,
+    "editor.renameOnType": true,
+    "workbench.colorTheme": "Material Theme Darker High Contrast",
 
 }
 ```
