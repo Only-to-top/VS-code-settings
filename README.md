@@ -2,19 +2,24 @@
 
 ## Extensions:
 
-- Live Server
-- Sass
-- Live Sass Complier
-- Highlight Matching Tag
-- Auto Rename Tag
-- Auto Complete Tag
-- Color Highlight
-- Bracket Pair Colorizer
 - Apache Conf
-- Import Cost
-- Russian Language Pack
+- Auto Close Tag
+- Auto Rename Tag
+- AutoFileName
+- Bracket Pair Colorizer
+- Color Highlight
+- CSS Formatter
+- Highlight Matching Tag
+- HTML CSS Support
+- JavaScript (ES6) code snippets
+- Liquid Languages Support
+- Live Sass Complier
+- Live Server
 - Material Theme
-- Code Runner
+- PHP Intelephense
+- PHP IntelliSense
+- Remote - WSL
+- Sass
 
 
 ## Settings:
