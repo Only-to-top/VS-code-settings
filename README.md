@@ -16,6 +16,7 @@
 - Live Sass Complier
 - Live Server
 - Material Theme
+- Path Intellisense - дополнение путей и имён файлов (+php)
 - PHP Intelephense
 - PHP IntelliSense
 - Remote - WSL
