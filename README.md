@@ -12,7 +12,7 @@
 - Highlight Matching Tag
 - HTML CSS Support
 - JavaScript (ES6) code snippets
-- Liquid Languages Support
+- Liquid
 - Live Sass Complier
 - Live Server
 - Material Theme
