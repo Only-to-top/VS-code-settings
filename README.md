@@ -257,6 +257,16 @@
         ],
         "description": "Грид шаблон колонок"
     }
+    
+    // Svg sprite item
+    "Svg-sprite-item": {
+        "scope": "php, html",
+        "prefix": "svg",
+        "body": [
+            "<svg class='$1'><use xlink:href='./assets/img/symbol/sprite.svg#$2'></use></svg>"
+        ],
+        "description": "Svg sprite item"
+    },
 
 }
 ```
