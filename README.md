@@ -56,16 +56,11 @@
     "editor.folding": true,
     "editor.glyphMargin": true,
     "editor.smoothScrolling": true,
-    
+
     "terminal.integrated.shell.windows": "C:\\Windows\\System32\\bash.exe",
     "terminal.integrated.rendererType": "dom",
     "terminal.integrated.fontWeight": "100",
 
-    // ассоциации файлов
-    "files.associations": {
-        "*.tpl": "php",
-    },
-    
     // highlight-matching-tag
     "highlight-matching-tag.styles": {
         "opening": {
@@ -91,13 +86,18 @@
     // liveServer
     "liveServer.settings.donotVerifyTags": true,
     "liveServer.settings.donotShowInfoMsg": true,
-    
+
     // liveSassCompiler
     "liveSassCompile.settings.formats": [{
         "format": "expanded",
         "extensionName": ".css",
         "savePath": "/assets/css/"
     }],
+
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDragAndDrop": false,
+    "editor.renameOnType": true,
+    "workbench.colorTheme": "Community Material Theme Darker High Contrast",
 
     // Указывает на исполняемый файл PHP.
     "php.suggest.basic": false, // откл. станд. php
@@ -108,14 +108,12 @@
         "javascript": "javascriptreact",
         "liquid":     "html"
     },
-    // "[html]": { "editor.formatOnSave": true },
-    // "[php]": { "editor.formatOnSave": true },
-    // "[javascript]": { "editor.formatOnSave": true },
 
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "explorer.confirmDragAndDrop": false,
-    "editor.renameOnType": true,
-    "workbench.colorTheme": "Material Theme Darker High Contrast",
+    // ассоциации файлов
+    "files.associations": {
+        "*.tpl": "php",
+        "*.liquid": "html",
+    },
 
 }
 ```
