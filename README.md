@@ -256,12 +256,12 @@
         "description": "Грид шаблон колонок"
     }
     
-    // Svg sprite item
-    "Svg-sprite-item": {
+    // Clamp secure
+    "Clamp-function": {
         "scope": "php, html",
-        "prefix": "svg",
+        "prefix": "clamp",
         "body": [
-            "<svg class='$1'><use xlink:href='./assets/img/symbol/sprite.svg#$2'></use></svg>"
+            "min(max($1, $2, $3);"
         ],
         "description": "Svg sprite item"
     },
