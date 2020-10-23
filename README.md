@@ -263,7 +263,7 @@
         "body": [
             "min(max($1, $2, $3);"
         ],
-        "description": "Svg sprite item"
+        "description": "Clamp безопасный"
     },
 
 }
