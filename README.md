@@ -258,10 +258,10 @@
     
     // Clamp secure
     "Clamp-function": {
-        "scope": "php, html",
+        "scope": "css",
         "prefix": "clamp",
         "body": [
-            "min(max($1, $2, $3);"
+            "min(max($1, $2), $3);"
         ],
         "description": "Clamp безопасный"
     },
