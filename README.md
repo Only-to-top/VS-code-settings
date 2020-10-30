@@ -13,6 +13,7 @@
 - HTML CSS Support
 - JavaScript (ES6) code snippets
 - Liquid
+- Jekyll Syntax Support
 - Live Sass Complier
 - Live Server
 - Material Theme
