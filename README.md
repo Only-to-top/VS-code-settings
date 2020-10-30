@@ -130,24 +130,22 @@
         "prefix": "@media",
         "scope": "sass",
         "body": [
-        "@media only screen and (max-width : $1px)",
+            "@media only screen and (max-width : $1px)",
             "$2"
         ],
         "description": "Вставить медиа запрос"
     },
-
     // css media
     "@media CSS": {
         "prefix": "@media",
         "scope": "css",
         "body": [
-        "@media only screen and (max-width: $1px) {",
+            "@media only screen and (max-width: $1px) {",
             "$2",
-        "}"
+            "}"
         ],
         "description": "Вставить медиа запрос"
     },
-    
     // print_r beautiful on PHP
     "@media": {
         "prefix": "print",
@@ -155,7 +153,6 @@
         "body": "echo '<pre>' . print_r($$1, true) . '</pre>';",
         "description": "Вставить print_r"
     },
-
     // HTML start template
     "!html": {
         "prefix": "!html",
@@ -180,11 +177,10 @@
         ],
         "description": "HTML start tpl"
     },
-
     // highlight Jekyll
     "highlight": {
         "prefix": "high",
-        "scope": "html",
+        "scope": "html, liquid, jekyll",
         "body": [
             "{% highlight $1 %}",
             "$2",
@@ -192,26 +188,22 @@
         ],
         "description": "Вставить highlight"
     },
-
     // rel nofollow
     "rel=nofollow": {
         "prefix": "rel",
-        "scope": "html",
+        "scope": "html, liquid, jekyll",
         "body": [
             "rel='nofollow noopener noreferrer'"
         ],
         "description": "Вставить rel='nofollow'"
     },
-
-
     // <picture> WEBP
     "picture-WEBP": {
         "prefix": "picture",
-        "scope": "html",
+        "scope": "html, liquid, jekyll",
         "body": [
             "<picture itemscope itemtype='http://schema.org/ImageObject'>",
             "   <source srcset='img/image.webp' type='image/webp'>",
-            "   <source srcset='img/image.jpg' type='image/jpeg'>",
             "   <img",
             "       itemprop='contentUrl'",
             "       src='img/image.jpg'",
@@ -222,32 +214,44 @@
         ],
         "description": "Вставить WEBP изображение"
     },
-
-
+    // <picture> Schema
+    "picture-microdata": {
+        "prefix": "picture",
+        "scope": "html, liquid, jekyll",
+        "body": [
+            "<picture itemscope itemtype='http://schema.org/ImageObject'>",
+            "   <img",
+            "       itemprop='contentUrl'",
+            "       src='img/image.jpg'",
+            "       alt='alt'",
+            "       class='img-responsive'",
+            "   >",
+            "</picture>"
+        ],
+        "description": "Вставить Микроразметку картинки"
+    },
     // <picture> media
     "picture-media": {
         "prefix": "picture",
-        "scope": "html, liquid",
+        "scope": "html, liquid, jekyll",
         "body": [
             "<picture>",
             "    <source media='(max-width: 576px)' srcset='./assets/img/mobile'>",
-            "    <img src='./assets/img/desktop' alt='alt'>",
+            "    <source media='(min-width: 577px)' srcset='./assets/img/desktop'>",
+            "    <img src='' alt=''>",
             "</picture>"
         ],
         "description": "Вставить media изображение"
     },
-
-
     // span.ground
     "span.ground": {
         "prefix": "sgr",
-        "scope": "html",
+        "scope": "html, liquid, jekyll",
         "body": [
             "<span class='ground'>$1</span>"
         ],
         "description": "Вставить WEBP изображение"
     },
-    
     // grid-tml columns
     "Grid-template-columns": {
         "scope": "sass,css",
@@ -256,8 +260,16 @@
             "grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));"
         ],
         "description": "Грид шаблон колонок"
-    }
-    
+    },
+    // log openCart
+    "Log-write": {
+        "scope": "php",
+        "prefix": "log",
+        "body": [
+            "\\$this->log->write($1);"
+        ],
+        "description": "Вывод в журнал ошибок"
+    },
     // Clamp secure
     "Clamp-function": {
         "scope": "css",
@@ -267,7 +279,6 @@
         ],
         "description": "Clamp безопасный"
     },
-
 }
 ```
 
