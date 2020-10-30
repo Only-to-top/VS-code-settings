@@ -107,7 +107,8 @@
 
     "emmet.includeLanguages": {
         "javascript": "javascriptreact",
-        "liquid":     "html"
+        "liquid":     "html",
+        "jekyll":     "html",
     },
 
     // ассоциации файлов
