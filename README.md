@@ -10,6 +10,7 @@
 - Color Highlight
 - CSS Formatter
 - Highlight Matching Tag
+- Indenticator
 - HTML CSS Support
 - JavaScript (ES6) code snippets
 - Liquid
