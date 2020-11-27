@@ -115,7 +115,11 @@
     // ассоциации файлов
     "files.associations": {
         "*.tpl": "php",
+        "*.twig": "php",
         "*.liquid": "html",
+    },
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
     },
 
 }
