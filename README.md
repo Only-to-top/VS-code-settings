@@ -284,7 +284,7 @@
         ],
         "description": "Clamp безопасный"
     },
-    // Clamp secure
+    // javascript:void(0);
     "void-js": {
         "scope": "html, php",
         "prefix": "void",
