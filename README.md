@@ -41,7 +41,7 @@
 
     "editor.fontSize": 16,
     "editor.tabCompletion": "on",
-    "editor.fontFamily": "Fira Code", // поддерживает лигатуры
+    // "editor.fontFamily": "Fira Code", // поддерживает лигатуры
     "editor.fontWeight": "100",
     "editor.fontLigatures": true,
 
@@ -83,17 +83,8 @@
     "liveServer.settings.donotVerifyTags": true,
     "liveServer.settings.donotShowInfoMsg": true,
 
-    // liveSassCompiler
-    "liveSassCompile.settings.formats": [{
-        "format": "expanded",
-        "extensionName": ".css",
-        "savePath": "/assets/css/"
-    }],
-
     "javascript.updateImportsOnFileMove.enabled": "always",
     "explorer.confirmDragAndDrop": false,
-    "editor.renameOnType": true,
-    "workbench.colorTheme": "Community Material Theme Darker High Contrast",
 
     // Указывает на исполняемый файл PHP.
     "php.suggest.basic": false, // откл. станд. php
