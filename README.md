@@ -11,7 +11,7 @@
 - CSS Formatter
 - Highlight Matching Tag
 - Indenticator
-- HTML CSS Support
+- IntelliSense for CSS class names in HTML
 - Jekyll Syntax Support
 - Live Server
 - Path Intellisense - дополнение путей и имён файлов (+php)
