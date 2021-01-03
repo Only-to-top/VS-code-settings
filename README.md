@@ -12,17 +12,11 @@
 - Highlight Matching Tag
 - Indenticator
 - HTML CSS Support
-- JavaScript (ES6) code snippets
-- Liquid
 - Jekyll Syntax Support
-- Live Sass Complier
 - Live Server
-- Material Theme
 - Path Intellisense - дополнение путей и имён файлов (+php)
 - PHP Intelephense
 - PHP IntelliSense
-- Remote - WSL
-- Sass
 
 
 ## Settings:
