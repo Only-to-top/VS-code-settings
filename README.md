@@ -18,6 +18,8 @@
 - PHP Intelephense
 - PHP IntelliSense
 
+- Twig Language
+
 
 ## Settings:
 
