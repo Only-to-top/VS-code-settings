@@ -41,7 +41,7 @@
 
     "files.defaultLanguage": "html",
 
-    "editor.fontSize": 16,
+    "editor.fontSize": 17,
     "editor.tabCompletion": "on",
     // "editor.fontFamily": "Fira Code", // поддерживает лигатуры
     "editor.fontWeight": "100",
@@ -108,7 +108,7 @@
     "[php]": {
         "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
     },
-
+    "workbench.colorTheme": "Default Dark+",
 }
 ```
 
