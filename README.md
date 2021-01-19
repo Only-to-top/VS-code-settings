@@ -12,12 +12,13 @@
 - Highlight Matching Tag
 - Indenticator
 - IntelliSense for CSS class names in HTML
-- Jekyll Syntax Support
 - Live Server
 - Path Intellisense - дополнение путей и имён файлов (+php)
 - PHP Intelephense
 - PHP IntelliSense
 
+- Jekyll Syntax Support
+- Liquid
 - Twig Language
 
 
