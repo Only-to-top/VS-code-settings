@@ -17,6 +17,9 @@
 - PHP Intelephense
 - PHP IntelliSense
 
+- Code Spell Checker
+- Russian - Code Spell Checker
+
 - Jekyll Syntax Support
 - Liquid
 - Twig Language
@@ -110,6 +113,8 @@
         "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
     },
     "workbench.colorTheme": "Default Dark+",
+    
+    "cSpell.language": "en,ru",
 }
 ```
 
