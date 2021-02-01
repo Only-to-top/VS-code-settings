@@ -14,6 +14,7 @@
 - IntelliSense for CSS class names in HTML
 - Live Server
 - Path Intellisense - дополнение путей и имён файлов (+php)
+
 - PHP Intelephense
 - PHP IntelliSense
 
@@ -23,6 +24,8 @@
 - Jekyll Syntax Support
 - Liquid
 - Twig Language
+- laravel-blade
+- Laravel Blade formatter
 
 
 ## Settings:
