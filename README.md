@@ -36,6 +36,7 @@
     "workbench.statusBar.visible": true,
     "workbench.activityBar.visible": true,
     "workbench.editor.tabSizing": "shrink",
+    "workbench.editor.wrapTabs": true,
     "workbench.colorCustomizations": {
         "editorIndentGuide.activeBackground": "#ff0000"
     },
@@ -98,7 +99,6 @@
     // Указывает на исполняемый файл PHP.
     "php.suggest.basic": false, // откл. станд. php
     "php.validate.executablePath": "D:\\OSPanel\\modules\\php\\PHP_7.3\\php.exe", // Desktop
-    // "php.validate.executablePath": "D:\\web\\OSPanel\\modules\\php\\PHP-7.1-x64\\php.exe", // Notebook
 
     "emmet.includeLanguages": {
         "javascript": "javascriptreact",
@@ -116,8 +116,84 @@
         "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
     },
     "workbench.colorTheme": "Default Dark+",
-    
+
     "cSpell.language": "en,ru",
+    
+    "intelephense.stubs": [
+        "apache",
+        "bcmath",
+        "bz2",
+        "calendar",
+        "com_dotnet",
+        "Core",
+        "ctype",
+        "curl",
+        "date",
+        "dba",
+        "dom",
+        "enchant",
+        "exif",
+        "FFI",
+        "fileinfo",
+        "filter",
+        "fpm",
+        "ftp",
+        "gd",
+        "gettext",
+        "gmp",
+        "hash",
+        "iconv",
+        "imap",
+        "intl",
+        "json",
+        "ldap",
+        "libxml",
+        "mbstring",
+        "meta",
+        "mysqli",
+        "oci8",
+        "odbc",
+        "openssl",
+        "pcntl",
+        "pcre",
+        "PDO",
+        "pdo_ibm",
+        "pdo_mysql",
+        "pdo_pgsql",
+        "pdo_sqlite",
+        "pgsql",
+        "Phar",
+        "posix",
+        "pspell",
+        "readline",
+        "Reflection",
+        "session",
+        "shmop",
+        "SimpleXML",
+        "snmp",
+        "soap",
+        "sockets",
+        "sodium",
+        "SPL",
+        "sqlite3",
+        "standard",
+        "superglobals",
+        "sysvmsg",
+        "sysvsem",
+        "sysvshm",
+        "tidy",
+        "tokenizer",
+        "xml",
+        "xmlreader",
+        "xmlrpc",
+        "xmlwriter",
+        "xsl",
+        "Zend OPcache",
+        "zip",
+        "zlib",
+        "wordpress"
+    ],
+    
 }
 ```
 
