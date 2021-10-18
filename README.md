@@ -32,6 +32,7 @@
 
 ```js
 {
+    {
     "workbench.startupEditor": "none",
     "workbench.statusBar.visible": true,
     "workbench.activityBar.visible": true,
@@ -40,32 +41,58 @@
     "workbench.colorCustomizations": {
         "editorIndentGuide.activeBackground": "#ff0000"
     },
-
-    "window.zoomLevel": 0,
     "window.menuBarVisibility": "visible",
+    "workbench.colorTheme": "Default Dark+",
+
+    "security.workspace.trust.enabled": false,
+    "security.workspace.trust.untrustedFiles": "open",
+
+    "files.defaultLanguage": "html",
 
     "git.autofetch": true,
     "git.ignoreMissingGitWarning": true,
 
-    "files.defaultLanguage": "html",
-
+    // "editor.fontFamily": "Fira Code", // поддерживает лигатуры
     "editor.fontSize": 17,
     "editor.tabCompletion": "on",
-    // "editor.fontFamily": "Fira Code", // поддерживает лигатуры
     "editor.fontWeight": "100",
     "editor.fontLigatures": true,
 
     "editor.tabSize": 4,
     "editor.insertSpaces": true, //Вставлять пробелы при нажатии клавиши TAB
     "editor.detectIndentation": false, //Только пробелы вместо TAB
-    "editor.renderWhitespace": "boundary",
+    "editor.renderWhitespace": "boundary", // Всегда показывать (..)
     "editor.folding": true,
     "editor.glyphMargin": true,
     "editor.smoothScrolling": true,
+    "editor.linkedEditing": true,
+    "editor.renderControlCharacters": true,
+    "editor.parameterHints.enabled": false, // Всплывающая подсказка в коде
+    "editor.hover.enabled": false, // Всплывающая подсказка в коде при наведении
 
-    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\bash.exe",
-    "terminal.integrated.rendererType": "dom",
+    "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
+    "terminal.integrated.fontSize": 16,
     "terminal.integrated.fontWeight": "100",
+
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "liquid":     "html",
+        "jekyll":     "html",
+    },
+
+    // Указывает на исполняемый файл PHP.
+    "php.suggest.basic": false, // откл. станд. php
+    "php.validate.executablePath": "D:\\OSPanel\\modules\\php\\PHP_7.4\\php.exe", // Desktop
+
+    // ассоциации файлов
+    "files.associations": {
+        "*.tpl": "php",
+        "*.twig": "php",
+        "*.liquid": "html",
+    },
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
 
     // highlight-matching-tag
     "highlight-matching-tag.styles": {
@@ -95,27 +122,6 @@
 
     "javascript.updateImportsOnFileMove.enabled": "always",
     "explorer.confirmDragAndDrop": false,
-
-    // Указывает на исполняемый файл PHP.
-    "php.suggest.basic": false, // откл. станд. php
-    "php.validate.executablePath": "D:\\OSPanel\\modules\\php\\PHP_7.3\\php.exe", // Desktop
-
-    "emmet.includeLanguages": {
-        "javascript": "javascriptreact",
-        "liquid":     "html",
-        "jekyll":     "html",
-    },
-
-    // ассоциации файлов
-    "files.associations": {
-        "*.tpl": "php",
-        "*.twig": "php",
-        "*.liquid": "html",
-    },
-    "[php]": {
-        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
-    },
-    "workbench.colorTheme": "Default Dark+",
 
     "cSpell.language": "en,ru",
     
@@ -193,7 +199,6 @@
         "zlib",
         "wordpress"
     ],
-    
 }
 ```
 
