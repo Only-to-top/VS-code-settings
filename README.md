@@ -381,3 +381,14 @@
     "command": "editor.emmet.action.wrapWithAbbreviation"
 }
 ```
+
+### exclude folders
+
+```json
+"search.exclude": {
+    "**/ARM/library/**": true
+},
+"php.problems.exclude": {
+    "**/ARM/library/**": true
+},
+```
