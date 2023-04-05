@@ -389,6 +389,7 @@
     "**/ARM/library/**": true
 },
 "php.problems.exclude": {
+    "/" : [437], // exclude $this error
     "**/ARM/library/**": true
 },
 ```
