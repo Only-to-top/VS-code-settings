@@ -124,7 +124,10 @@
     "explorer.confirmDragAndDrop": false,
 
     "cSpell.language": "en,ru",
-    
+
+    "intelephense.files.exclude": [
+        "**/examination/loadExcel/**",  // Игнорировать папку vendor
+    ],
     "intelephense.stubs": [
         "apache",
         "bcmath",
